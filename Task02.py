@@ -1,0 +1,19 @@
+def main():
+    x = "Task2"
+    #===============================
+    # Task 2: Animal Sound
+    # Write a program that returns the sound of a given animal.
+    # Recognized animals: dog -> "Woof!", cat -> "Meow!", cow -> "Moo!"
+    # Any other input -> "Unknown sound"
+
+    #===============================
+    # Write your code here
+    #-------------------------------
+
+
+    #-------------------------------
+    # End of your code here
+    #===============================
+
+if __name__ == '__main__':
+    main()
