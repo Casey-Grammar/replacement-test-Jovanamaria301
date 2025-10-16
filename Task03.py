@@ -10,7 +10,13 @@ def main():
     #===============================
     # Write your code here
     #-------------------------------
-
+    cups = int(input("How many cups of water did you drink today? "))
+    if cups <4:
+        print("Drink more water!")
+    elif cups <=8: 
+        print("Good job staying hydrated!")
+    else: 
+        print("thats a lot of water!")
     #-------------------------------
     # End of your code here
     #===============================
