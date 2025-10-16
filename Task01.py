@@ -8,7 +8,9 @@ def main():
     #===============================
     # Write your code here
     #-------------------------------
-    y="Loaded 1"
+    cheer = input("cheer word: ")
+    output = cheer + '!' + cheer + '!'  + cheer + '!' 
+    print(output) 
     #-------------------------------
     # End of your code here
     #===============================
