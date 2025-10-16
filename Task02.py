@@ -9,7 +9,15 @@ def main():
     #===============================
     # Write your code here
     #-------------------------------
-
+    animal = input("Enter an animal: ").lower() 
+    if animal == dog: 
+        print("woof")
+    elif animal == cat: 
+        print("Meow")
+    elif animal == cow: 
+        print("Moo")
+    else:
+        print("Unknown sound")
 
     #-------------------------------
     # End of your code here
