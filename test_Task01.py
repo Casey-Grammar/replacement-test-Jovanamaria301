@@ -1,5 +1,5 @@
 import unittest
-from task1 import triple_cheer
+from Task01 import triple_cheer
 
 class TestTripleCheer(unittest.TestCase):
     def test_normal(self):

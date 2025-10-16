@@ -11,7 +11,15 @@ def main():
     #===============================
     # Write your code here
     #-------------------------------
-
+    age = int(input("Enter your age: ")) 
+    if age <0: 
+        print("invalid age")
+    elif age < 13: 
+        print("Child ticket")
+    elif age <= 64:
+        print("Adult ticket")
+    else:
+        print("Senior ticket")
     #-------------------------------
     # End of your code here
     #===============================
