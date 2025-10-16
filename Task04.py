@@ -8,7 +8,9 @@ def main():
     #===============================
     # Write your code here
     #-------------------------------
-
+    start = int(input("Enter a starting number: "))
+    for start in range (start, 0,-1):
+       print("T-minus")
     #-------------------------------
     # End of your code here
     #===============================
